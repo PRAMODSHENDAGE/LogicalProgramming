@@ -2,7 +2,7 @@
 Console.WriteLine("Welcome to Logical Programming");
 while (true)
 {
-    Console.WriteLine("Select program\n 1. fibonacci series\n 2. Perfect Number");
+    Console.WriteLine("Select program\n 1. fibonacci series\n 2. Perfect Number\n 3. Prime Number");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -11,6 +11,9 @@ while (true)
             break;
         case 2:
             PerfectNumber.Perfectnumber();
+            break;
+        case 3:
+            PrimeNumber.Primenumber();
             break;
         default:
             Console.WriteLine("Select correct option");
